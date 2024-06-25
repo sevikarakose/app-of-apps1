@@ -1,0 +1,23 @@
+# Ignore compiled files
+*.o
+*.obj
+*.exe
+
+# Ignore temporary files
+*~
+*.swp
+*.tmp
+
+# Ignore logs
+*.log
+
+# Ignore ArgoCD generated files
+argocd.yaml
+argocd-*.yaml
+
+# Ignore sensitive files
+secrets.yaml
+
+# Ignore generated manifests
+*.yaml
+*.json
